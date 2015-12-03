@@ -1,0 +1,53 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 30px;
+}
+
+.snake {
+  margin: 0px auto;
+  width: 400px;
+}
+
+ul {
+  list-style: none;
+  float: left;
+  width: 400px;
+}
+
+ul:hover {
+  border-color: blue;
+}
+
+ul.selected {
+  border-color: red;
+}
+
+li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 0px auto;
+  background: gray;
+  outline: 1px solid;
+  position: relative;
+}
